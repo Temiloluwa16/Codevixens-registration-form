@@ -12,12 +12,31 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
+    <h3>Register For Codevixens Band 4 Training </h3>
+    <form action="/">
+      <div style="display:flex">
+      <div>
+      <input placeholder="First Name"/>
+      <input placeholder="Email Address"/>
+      <input placeholder="Phone Number"/>
+      <input placeholder="Country"/>
+      </div>
+      <div>
+      <input style="margin:2%" placeholder="Last Name"/>
+      </div>
+    </div>
+    What Is Your Gender? <input type="radio" name="mail" id="male" value="male"> <label for="male">Male</label> <input type="radio" name="femail" id="female" value="female">  <label for="female">Female</label> 
+
+    Where Did You Hear About Us? <select name="hear" id="sm">
+      <option value="twitter"> Twitter</option>
+      <option value="facebook"> Facebook</option>
+
+    </select>
+    <br>
+    <br>
+    <textarea cols="30" rows="10" placeholder="Tell us about yourself"></textarea>
+    <br>
+    <input type="button" value="Submit Details"/>
+    </form>
   </body>
 </html>
